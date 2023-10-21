@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&family=Rubik&display=swap');
+
+body::before{
+    display: inline-block;
+    content:"";
+    height: 60px;
+}
+
+
+.navbar-brand{
+    color: rgb(101, 101, 250);
+    font-family: 'Orbitron', sans-serif;
+}
+.nav-link:hover{
+    color: rgb(180, 180, 252);
+
+}
+.nav-link{
+    font-size: 20px;
+    color:rgb(90, 90, 252) ;
+    font-weight: 400;
+}
+.buttons{
+    border-radius: 5px;
+    background: rgb(90, 90, 252) ;
+    border: none;
+    width: 10rem;
+    color: #fff;
+      
+}
+.buttons:hover{
+    background: rgb(180, 180, 252);
+    cursor: pointer;
+}
+.register{
+    height: 3rem;
+}
+.cont{
+    color: #fff;
+}
+.highlight{
+    font-weight: bold;
+    color: rgb(101, 101, 250);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+
+}
+.lead{
+    margin: 15px;
+}
+.join{
+    background:rgb(154, 154, 248);
+    padding: 10px;
+    
+    
+}
+
+.react{
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(154, 154, 248) ;
+    display: flex;
+   
+}
+.title{
+   font-family:  'Orbitron', sans-serif;
+}
+.intern-text{
+    text-align: center;
+}
+.card-category{
+    height: 10rem;
+    width: 15rem;
+    border: 1px solid #bacdd8;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: 10px 5px 5px #bacdd8;
+    
+}
+.card-3, .card-1, .card-2, .card-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.card-icon3{
+    color: green;
+    font-size: 3rem;
+    
+}
+.card-icon1{
+    color:rgb(138, 138, 250) ;
+    font-size: 3rem;
+}
+.card-icon2{
+    color: orange;
+    font-size: 3rem;
+}
+.card-icon4{
+    color: rgb(250, 131, 131);
+    font-size: 3rem;
+}
+
+.test{
+    padding: 1.5rem;
+}
+
+
+.card_container{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    gap: 12px;
+    max-width: 800px;
+    width: 100%;
+    background: #4070f4;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-padding: 30px;
+
+  
+}
+.card_container .card_testimonial{
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    scroll-snap-align: start;
+    padding: 30px;
+
+}
+#testimonials{
+    background:#fff ;
+    display: flex;
+    justify-content: center;
+}
+
+.card_testimonial .image{
+    height: 150px;
+    width: 150px;
+    padding: 4px;
+    background:#4070f4;
+    border-radius: 50%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+
+}
+.card_testimonial h2{
+    margin-top: 25px;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.card_testimonial{
+    margin-top: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+}
+
+.icon_email{
+    color: #4070f4;
+}
+.footer{
+    color: rgb(138, 138, 250);
+    
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 20px;
+   
+}
+
+
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
+.check:hover{
+    color: rgb(241, 241, 144);
+    font-weight: bold;
+
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.bi-cart2{
+    color:rgb(245, 193, 96);}
+    .bi-person{
+        color:rgb(245, 193, 96);}
+        .bi-chat-left-text{
+            color:rgb(245, 193, 96);}
